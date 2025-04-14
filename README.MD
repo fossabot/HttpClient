@@ -4,6 +4,9 @@
 像 Python 的 requests 一样写 HTTP 请求
 支持 GET/POST 自动带参数 带 Cookie 还内置了常见的浏览器 UA(火狐/谷歌/Edge)
 
+
+# 使用 maven/gradle 导入
+https://jitpack.io/#LangYa466/HTTPCLIENT/-SNAPSHOT
 ---
 
 ## 快速开始
