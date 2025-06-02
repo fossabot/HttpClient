@@ -11,6 +11,7 @@ https://jitpack.io/#LangYa466/HTTPCLIENT/-SNAPSHOT
 
 ## 快速开始
 
+##  Response(toString默认为getBody)
 ### GET
 ```java
 Response response = new HttpClient()

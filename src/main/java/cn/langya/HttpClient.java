@@ -109,7 +109,7 @@ public class HttpClient {
         // 读取返回
         int code = conn.getResponseCode();
         InputStream is = code < HttpURLConnection.HTTP_BAD_REQUEST ? conn.getInputStream() : conn.getErrorStream();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
         StringBuilder resp = new StringBuilder();
         String line;
         while ((line = reader.readLine()) != null) {
