@@ -1,4 +1,6 @@
 # HttpClient
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLangYa466%2FHttpClient.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLangYa466%2FHttpClient?ref=badge_shield)
+
 
 简单轻量的网页请求库
 像 Python 的 requests 一样写 HTTP 请求
@@ -37,3 +39,6 @@ Response response = new HttpClient()
 
         System.out.println("POST:" + response);
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLangYa466%2FHttpClient.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLangYa466%2FHttpClient?ref=badge_large)
